@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title> {{ author }}'s app</title>
+		<link href='http://fonts.googleapis.com/css?family=Sintony:400,700'     rel='stylesheet' type='text/css'>
+
+		<style type="text/css">
+    
+		      body
+		      {
+			background-color:#000;
+		      }
+
+		      h1
+		      {
+			font-size:48px;
+			margin-top:0;
+			font-family:Arial, sans-serif;
+			text-shadow:2px 0 15px #292929;
+			letter-spacing:4px;
+			text-decoration:none;
+			color:#DDD;
+		      }
+
+		      #banner
+		      {
+			width:500px;
+			height:200px;
+			text-align:center;
+			background-image:url(http://i.imgur.com/MQHYB.jpg);
+			background-repeat:no-repeat;
+			border-radius:5px;
+			margin:90px auto auto;
+			padding:80px 0;
+		      }
+
+		      #aboutme
+		      {
+			font-family:Arial, sans-serif;
+			text-align:center;
+			color:#DDD;
+			letter-spacing:4px;
+			padding:50px 0;
+		      }
+
+		      #emailform
+		      {
+			text-align:center;
+			margin:90px auto auto;
+			padding: 30px 0;
+		      }
+
+		      .lead
+		      {
+			background-color:rgba(255,255,255,0.6);
+			border-radius:3px;
+			box-shadow:rgba(0,0,0,0.2) 0 1px 3px;
+			font-family:Sintony, sans-serif;
+		      }
+	    
+		</style>
+	<head>
+
+	<body>
+		<div id="banner">
+			<h1>The Website of Nick Lai</h1>
+			<p class="lead">I'm just a guy who's tryna get by.</p>
+		</div>
+		<div id="aboutme">
+			<h1>About me</h1>
+			<p>I'm a Silicon Valley native with a ferocious growl and a knack for disrupting the milk industry.</p>
+		       	<p>My hobbies include coding, chasing mice, and kicking some serious kitty kung fu.</p>
+			<p>	Most valuable trait? I have a <i>killer</i> glare.</p>
+			<a href="https://www.linkedin.com/in/nicholas-lai-5b0786117">Linkedin
+			</a>
+		</div>
+		<div id="emailform">
+			<form action="/signup" method="post">
+				<input type="text" name="email" value="Your email here"></input>
+				<input type="submit" value="Contact me!"></input>
+			</form>
+		</div>
+	</body>
+</html>
+
